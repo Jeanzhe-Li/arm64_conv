@@ -12,9 +12,8 @@
 
 同名可执行文件均在同一目录下
 ```
-conv/
+code/
 ├── C_loop_Origin.c          # 初始C语言卷积实现（基准版本）
-├── 22281010_李竞喆.docx      # 实验报告
 ├── set1/                    # 思路一：直接卷积优化
 │   ├── C_loop_Kernel3x3.c   # 3x3卷积核手动展开的C实现
 │   ├── asm_loop_Kernel3x3.c # 3x3卷积核手动展开的汇编优化
@@ -95,7 +94,7 @@ clang -o ./set2/asm_Sgemm_op16 ./set2/asm_Sgemm_op16.c
 
 ## 性能对比
 
-详细图表位于实验报告中，请您查阅
+详细图表位于实验报告report.docx中，请您查阅
 
 ## 注意事项
 
